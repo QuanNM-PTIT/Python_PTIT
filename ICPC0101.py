@@ -1,8 +1,7 @@
-from operator import le
 from typing import List
 
 n = int(input())
-a = [int (i) for i in input().split()]
+a = (list(map(int, input().split())))
 res = []
 
 for i in a:

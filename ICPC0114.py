@@ -10,7 +10,7 @@ def isPrime(n):
     if n % 2 == 0 or n % 3 == 0:
         return False
     sqr = int(math.sqrt(n))
-    i = 2
+    i = 5
     while i <= sqr:
         if n % i == 0 or n % (i + 2) == 0:
             return False

@@ -1,6 +1,5 @@
 from curses.ascii import isupper
 
-
 s = input()
 
 upper = 0

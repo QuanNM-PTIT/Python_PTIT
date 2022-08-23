@@ -8,7 +8,7 @@ def check(n):
             return False
     return True
 
-num = 2;
+num = 2
 while num <= 888:
     if check(str(num)):
         tmp = str(num)

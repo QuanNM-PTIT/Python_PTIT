@@ -1,5 +1,3 @@
-from ctypes.wintypes import CHAR
-
 n = int(input())
 
 while n > 0:

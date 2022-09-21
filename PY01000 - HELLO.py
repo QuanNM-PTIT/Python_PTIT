@@ -1,2 +1,3 @@
-s = str(input());
+s = str(input())
+
 print("Hello " + s + "!")

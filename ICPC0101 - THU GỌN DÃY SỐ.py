@@ -1,5 +1,3 @@
-from typing import List
-
 n = int(input())
 a = (list(map(int, input().split())))
 res = []

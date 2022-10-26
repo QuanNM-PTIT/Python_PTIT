@@ -14,7 +14,7 @@ def isPrime(n):
     return True
 
 def check (n):
-    sum = 0;
+    sum = 0
     for i in range(0, len(n)):
         tmp = ord(n[i]) - ord('0')
         if i & 1 == 1 and tmp & 1 == 0:

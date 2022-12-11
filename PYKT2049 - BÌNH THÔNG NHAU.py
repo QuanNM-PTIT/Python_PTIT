@@ -1,4 +1,4 @@
-root = [0 for i in range(100005)]
+root = [i for i in range(100005)]
 
 def findRoot(x):
     if x == root[x]:
@@ -17,9 +17,6 @@ def union(x, y):
     rootX = findRoot(x)
     rootY = findRoot(y)
     root[rootX] = rootY
-
-for i in range(100005):
-    root[i] = i
 
 for i in range(int(input())):
     x, y, z = map(int, input().split())
